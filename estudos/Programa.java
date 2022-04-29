@@ -1,9 +1,8 @@
-public class Programa {
+public class Programa{
+    public static void main(String[] args){
+        System.out.println("ola novo teste");
 
-    public static void main(String[] args) {
-    
-        System.out.println("Hello World!");
-    
+        int idade = 31;
+        System.out.println("idade: " + idade);
     }
-
 }
