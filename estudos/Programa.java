@@ -1,8 +1,24 @@
 public class Programa{
     public static void main(String[] args){
-        System.out.println("ola novo teste");
+        //o processo a baixo é chamado de casting, ele molda o tipo para entrar dentro do outro
+        double salario = 1270.50;
+        int valor = (int) salario;
+        System.out.println(valor);
 
-        int idade = 31;
-        System.out.println("idade: " + idade);
+        System.out.println("Testando condicionais");
+
+        int idade = 15;
+        int quantidadePessoas = 15;
+
+
+        //teste para estrutura de decisão usando if
+        //operador ou ||
+        //operador E &&
+        if (idade >= 18 || quantidadePessoas >= 17){
+            System.out.println("Maior de idade");
+        } else {
+            System.out.println("Menor de idade");
+        }
+
     }
 }
