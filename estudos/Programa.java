@@ -1,3 +1,4 @@
+/*
 public class Programa{
     public static void main(String[] args){
         //o processo a baixo é chamado de casting, ele molda o tipo para entrar dentro do outro
@@ -21,4 +22,4 @@ public class Programa{
         }
 
     }
-}
+}*/
