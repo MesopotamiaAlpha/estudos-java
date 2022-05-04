@@ -1,11 +1,11 @@
 //este arquivo ele vai ser o "modelo", ou schema para que o objeto seja criado
 
-/*
+
 public class Conta {
     double saldo;
     int agencia;
     int numero;
-    String titular;
+    Cliente titular;
 
     //por convenção o método deve ser tudo em minusculo
     void deposita(double valor) {
@@ -38,4 +38,3 @@ public class Conta {
     }
 
 }
-*/
