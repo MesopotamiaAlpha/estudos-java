@@ -2,7 +2,9 @@
 
 
 public class Conta {
-    double saldo;
+    //privando o atributo ele nao pode ser acessado por nenhum outro lugar alem da propria classe
+    private double saldo;
+    
     int agencia;
     int numero;
 
