@@ -5,6 +5,8 @@ public class Conta {
     double saldo;
     int agencia;
     int numero;
+
+    //aqui é feito uma associação entre o objeto conta e o objeto cliente
     Cliente titular;
 
     //por convenção o método deve ser tudo em minusculo
