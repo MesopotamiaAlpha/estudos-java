@@ -7,6 +7,9 @@ public class Conta {
     private int agencia;
     private int numero;
 
+    //este atributo static ele separa o total de todos os objetos fazendo que ele fique somente pertencendo a classe.
+    private static int total;
+
     //aqui é feito uma associação entre o objeto conta e o objeto cliente
     Cliente titular;
 
@@ -15,6 +18,15 @@ public class Conta {
         saldo = saldo + valor;
     }
 
+
+    public Conta (int agencia, int numero) {
+        //aqui ele esta acessando o total da classe separado do objeto
+        total++;
+        System.out.println("O total de contas é " + total);
+        this.agencia = agencia;
+        this.numero = numero;
+        System.out.println("Estou criando uma conta " + this.agencia + " " + this.numero);
+    }
 
     //este método ele vai fazer o saque e retornar booleano com a mensagem de positivo ou negativo
     public boolean saca(double valor) {
@@ -61,4 +73,13 @@ public class Conta {
     public Cliente getTitular() {
         return this.titular;
     }
+
+    public int getAgencia() {
+        return this.agencia;
+    }
+
+    public int setAgencia() {
+        return this.agencia;
+    }
+
 }

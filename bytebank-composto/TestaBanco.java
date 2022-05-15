@@ -8,7 +8,7 @@ public class TestaBanco {
         //paulo.cpf = "111.111.111-11";
         //paulo.profissao = "Desenvolvedor";
 
-        Conta contaDoPaulo = new Conta();
+        Conta contaDoPaulo = new Conta(0, 0);
         //contaDoPaulo.deposita = (100);
 
         //associa o cliente paulo a conta contaDoPaulo
@@ -17,7 +17,7 @@ public class TestaBanco {
         //System.out.println(contaDoPaulo.titular.nome);
 
         //teste em pegar o saldo privado dentro do conta.java
-        Conta conta = new Conta();
+        Conta conta = new Conta(0, 0);
         conta.deposita(100);
         System.out.println(conta.getSaldo());
 
