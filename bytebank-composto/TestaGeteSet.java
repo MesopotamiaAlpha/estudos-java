@@ -5,7 +5,7 @@ public class TestaGeteSet {
         System.out.println(conta.getNumero());
 
 
-        Cliente paulo = new Cliente();
+        Funcionario paulo = new Funcionario();
         conta.setTitular(paulo);
         
 

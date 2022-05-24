@@ -11,7 +11,7 @@ public class Conta {
     private static int total;
 
     //aqui é feito uma associação entre o objeto conta e o objeto cliente
-    Cliente titular;
+    Funcionario titular;
 
     //por convenção o método deve ser tudo em minusculo
     void deposita(double valor) {
@@ -66,11 +66,11 @@ public class Conta {
     }
 
 
-    public void setTitular (Cliente titular) {
+    public void setTitular (Funcionario titular) {
         this.titular = titular;
     }
 
-    public Cliente getTitular() {
+    public Funcionario getTitular() {
         return this.titular;
     }
 

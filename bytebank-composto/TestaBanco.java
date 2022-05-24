@@ -1,6 +1,6 @@
 public class TestaBanco {
     public static void main(String[] args) {
-        Cliente paulo = new Cliente();
+        Funcionario paulo = new Funcionario();
         //paulo.nome = "Paulo Silveira";
         paulo.setNome("Paulo Silveira");
         
