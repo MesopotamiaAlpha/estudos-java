@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "bytebank-composto"
+        "bytebank-composto",
+        "bytebank-herdado/src"
     ]
 }
